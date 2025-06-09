@@ -1,0 +1,9 @@
+# Google Cloud & AI Libraries
+google-generativeai==0.7.1
+google-cloud-storage==2.16.0
+
+# Workflow Engine
+langgraph==0.1.5
+
+# Typing support (often a dependency, good to have)
+typing_extensions==4.12.2
