@@ -1,0 +1,10 @@
+pdfplumber
+pytesseract
+pdf2image
+fastapi
+uvicorn
+google-generativeai
+langgraph
+nest_asyncio
+python-multipart
+
