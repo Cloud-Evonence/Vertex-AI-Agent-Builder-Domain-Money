@@ -27,7 +27,7 @@ logging.basicConfig(filename="/tmp/document_processing.log", level=logging.INFO,
 
 # --- Gemini API Configuration ---
 try:
-    genai.configure(api_key=os.getenv("GEMINI_API_KEY", "AIzaSyBmbqY5_0T1rZphhHIGeM64W9G7tk-64zI"))
+    genai.configure(api_key=os.getenv("GEMINI_API_KEY", "AIzaSyBmbqY7tk-64zI"))
     model = genai.GenerativeModel('gemini-2.5-flash')
     logging.info("Gemini API configured successfully.")
 except Exception as e:
